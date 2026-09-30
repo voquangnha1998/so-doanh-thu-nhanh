@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sổ Doanh Thu Nhanh</title>
+<meta name="description" content="Sổ Doanh Thu Nhanh — ghi doanh thu quán chỉ 1 chạm, ngay trên màn hình khóa. Hoạt động hoàn toàn ngoại tuyến.">
+<style>
+  :root { --bg: #F3F4F1; --surface: #FFFFFF; --ink: #0F1512; --muted: #5F6862; --line: #E3E6E0; --link: #2F6B1E; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0E1411; --surface: #17201B; --ink: #EEF2EC; --muted: #A9B3AD; --line: #26312B; --link: #C6F36B; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 16px; }
+  .logo { width: 72px; height: 72px; border-radius: 22px; background: linear-gradient(#DDFB9E, #A9E24E);
+          display: grid; place-items: center; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 20px 0 8px; letter-spacing: -0.02em; }
+  p { color: var(--muted); margin: 0 0 24px; }
+  a.card { display: block; background: var(--surface); border: 1px solid var(--line); border-radius: 20px;
+           padding: 18px 20px; color: var(--ink); text-decoration: none; font-weight: 600; }
+  a.card span { display: block; color: var(--muted); font-weight: 400; font-size: 14px; }
+  a.card:hover { border-color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+  <div class="logo" aria-hidden="true">
+    <svg width="44" height="44" viewBox="232 250 560 560">
+      <path d="M292 250h88l-12 150a56 56 0 0 1-112 0z" fill="#0F1512"/>
+      <path d="M380 250h88l-4 150a56 56 0 0 1-112 0z" fill="#fff"/>
+      <path d="M468 250h88l4 150a56 56 0 0 1-112 0z" fill="#0F1512"/>
+      <path d="M556 250h88l20 150a56 56 0 0 1-112 0z" fill="#fff"/>
+      <path d="M644 250h88l60 150a56 56 0 0 1-112 0z" fill="#0F1512"/>
+      <rect x="272" y="430" width="480" height="370" rx="44" fill="#0F1512"/>
+      <rect x="320" y="486" width="112" height="100" rx="22" fill="#C6F36B"/>
+      <rect x="592" y="486" width="112" height="100" rx="22" fill="#C6F36B"/>
+      <path d="M452 800V652q0-32 32-32h56q32 0 32 32v148z" fill="#fff"/>
+    </svg>
+  </div>
+  <h1>Sổ Doanh Thu Nhanh</h1>
+  <p>Ghi doanh thu quán chỉ 1 chạm, ngay trên màn hình khóa. Hoạt động hoàn toàn ngoại tuyến —
+  không tài khoản, không quảng cáo, dữ liệu chỉ nằm trên điện thoại của bạn.</p>
+  <a class="card" href="privacy-policy/">Chính sách quyền riêng tư
+    <span>Ứng dụng lưu gì, hiển thị ở đâu, và xin những quyền nào</span></a>
+</main>
+</body>
+</html>
