@@ -72,7 +72,7 @@
     </div>
     <h1>Chính sách quyền riêng tư<br><span class="muted" style="font-weight:600">Sổ Doanh Thu Nhanh</span></h1>
   </header>
-  <p class="updated">Cập nhật lần cuối: 13/10/2026</p>
+  <p class="updated">Cập nhật lần cuối: 14/10/2026</p>
 
   <div class="summary">
     <p>Sổ Doanh Thu Nhanh ghi bán hàng hoàn toàn ngoại tuyến. Doanh thu, thực đơn, giá vốn và
@@ -125,6 +125,7 @@
         <tr><td>Rung, giữ máy thức</td><td>Phản hồi khi bấm nút ghi nhanh; giữ bong bóng hoạt động ổn định</td></tr>
         <tr><td>Bộ nhớ (chỉ Android 8–9)</td><td>Lưu tệp CSV hoặc tệp sao lưu bạn xuất vào thư mục Tải xuống</td></tr>
         <tr><td>Internet</td><td>Chỉ để nhận thông báo “Tin mới” (xem mục Chia sẻ dữ liệu)</td></tr>
+        <tr><td>Truy cập thông báo (chỉ khi bạn bật)</td><td>“Tự xác nhận chuyển khoản”: đọc thông báo biến động số dư của app ngân hàng (xem mục Chia sẻ dữ liệu)</td></tr>
       </table>
     </div>
     <p>Ứng dụng <strong>không</strong> xin quyền bỏ qua tối ưu hoá pin. Nếu muốn máy không tự tắt
@@ -139,6 +140,17 @@
     <p>Ứng dụng <strong>không</strong> gửi dữ liệu bán hàng của bạn qua mạng dưới bất kỳ hình thức nào:
     không có tài khoản, không đồng bộ đám mây, không quảng cáo, không theo dõi hay phân tích hành vi.
     Phông chữ được đóng gói sẵn trong ứng dụng, không tải về từ Internet.</p>
+    <h3>Tự xác nhận chuyển khoản (đọc thông báo ngân hàng)</h3>
+    <p>Tính năng này <strong>mặc định tắt</strong>. Khi bạn bật nó trong Cài đặt và cho phép “Truy cập thông báo”
+    trong cài đặt Android, ứng dụng xem các thông báo mới trên máy để tìm thông báo “biến động số dư” của app
+    ngân hàng:</p>
+    <ul>
+      <li>Chỉ lấy <strong>số tiền</strong> và <strong>nội dung chuyển khoản</strong> để khớp với đơn chuyển khoản đang chờ,
+        rồi đánh dấu đơn đó “Đã nhận”.</li>
+      <li>Mọi việc xử lý <strong>ngay trên máy</strong>. Nội dung thông báo <strong>không được lưu</strong> và
+        <strong>không được gửi đi</strong> đâu cả. Thông báo của ứng dụng khác (tin nhắn, mạng xã hội…) bị bỏ qua.</li>
+      <li>Tắt bất cứ lúc nào trong Cài đặt của ứng dụng, hoặc gỡ quyền “Truy cập thông báo” trong cài đặt Android.</li>
+    </ul>
     <h3>Thông báo “Tin mới” (Firebase Cloud Messaging)</h3>
     <p>Để nhận thông báo về bản cập nhật và tính năng mới, ứng dụng dùng Firebase Cloud Messaging
     (FCM) của Google:</p>
