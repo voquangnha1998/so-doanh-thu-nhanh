@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Chính sách quyền riêng tư — Sổ Doanh Thu Nhanh</title>
-<meta name="description" content="Chính sách quyền riêng tư của ứng dụng Sổ Doanh Thu Nhanh: ghi bán hàng ngoại tuyến, dữ liệu bán hàng chỉ nằm trên máy; chỉ dùng mạng để nhận thông báo Tin mới.">
+<meta name="description" content="Chính sách quyền riêng tư của ứng dụng Sổ Doanh Thu Nhanh: hoạt động hoàn toàn ngoại tuyến, không có quyền Internet, không thu thập dữ liệu.">
 <!-- Kept in sync by hand with PRIVACY_POLICY.md at the repo root. Self-contained
      (no external fonts/scripts) so it can be hosted anywhere: GitHub Pages,
      Google Sites, Netlify... -->
@@ -72,13 +72,13 @@
     </div>
     <h1>Chính sách quyền riêng tư<br><span class="muted" style="font-weight:600">Sổ Doanh Thu Nhanh</span></h1>
   </header>
-  <p class="updated">Cập nhật lần cuối: 14/10/2026</p>
+  <p class="updated">Cập nhật lần cuối: 17/10/2026</p>
 
   <div class="summary">
-    <p>Sổ Doanh Thu Nhanh ghi bán hàng hoàn toàn ngoại tuyến. Doanh thu, thực đơn, giá vốn và
-    khoản chi <strong>chỉ nằm trên điện thoại của bạn</strong> và không bao giờ được gửi đi. Ứng dụng
-    chỉ dùng mạng cho một việc: <strong>nhận thông báo “Tin mới”</strong> (bản cập nhật, tính năng mới)
-    qua dịch vụ Firebase Cloud Messaging của Google. Bạn tắt được trong Cài đặt › Thông báo › Tin mới.</p>
+    <p>Sổ Doanh Thu Nhanh hoạt động hoàn toàn ngoại tuyến. Ứng dụng <strong>không có quyền truy cập
+    Internet</strong>, nên không thể gửi dữ liệu của bạn đi đâu cả. Doanh thu, thực đơn, giá vốn và khoản chi
+    <strong>chỉ nằm trên điện thoại của bạn</strong>. Chúng tôi không thu thập, không lưu trữ trên máy chủ và không
+    chia sẻ bất kỳ dữ liệu nào của bạn với chúng tôi hay bên thứ ba nào.</p>
   </div>
 
   <section>
@@ -124,48 +124,20 @@
         <tr><td>Khởi động cùng máy</td><td>Bật lại bong bóng sau khi khởi động lại máy, nếu trước đó bạn đã bật</td></tr>
         <tr><td>Rung, giữ máy thức</td><td>Phản hồi khi bấm nút ghi nhanh; giữ bong bóng hoạt động ổn định</td></tr>
         <tr><td>Bộ nhớ (chỉ Android 8–9)</td><td>Lưu tệp CSV hoặc tệp sao lưu bạn xuất vào thư mục Tải xuống</td></tr>
-        <tr><td>Internet</td><td>Chỉ để nhận thông báo “Tin mới” (xem mục Chia sẻ dữ liệu)</td></tr>
-        <tr><td>Truy cập thông báo (chỉ khi bạn bật)</td><td>“Tự xác nhận chuyển khoản”: đọc thông báo biến động số dư của app ngân hàng (xem mục Chia sẻ dữ liệu)</td></tr>
       </table>
     </div>
     <p>Ứng dụng <strong>không</strong> xin quyền bỏ qua tối ưu hoá pin. Nếu muốn máy không tự tắt
     bong bóng, bạn tự chọn “Không hạn chế” trong phần cài đặt pin của hệ thống; ứng dụng chỉ
     hướng dẫn và mở sẵn trang cài đặt đó. Mục “Tự khởi động” cũng chỉ là hướng dẫn theo từng
     hãng máy.</p>
-    <p>Không có quyền nào trong số này được dùng để thu thập hoặc truyền dữ liệu bán hàng ra khỏi thiết bị.</p>
+    <p>Không có quyền nào trong số này được dùng để thu thập hoặc truyền dữ liệu ra khỏi thiết bị.</p>
   </section>
 
   <section>
     <h2>Chia sẻ dữ liệu</h2>
-    <p>Ứng dụng <strong>không</strong> gửi dữ liệu bán hàng của bạn qua mạng dưới bất kỳ hình thức nào:
+    <p>Ứng dụng <strong>không</strong> gửi dữ liệu qua mạng dưới bất kỳ hình thức nào (nó không có quyền Internet):
     không có tài khoản, không đồng bộ đám mây, không quảng cáo, không theo dõi hay phân tích hành vi.
     Phông chữ được đóng gói sẵn trong ứng dụng, không tải về từ Internet.</p>
-    <h3>Tự xác nhận chuyển khoản (đọc thông báo ngân hàng)</h3>
-    <p>Tính năng này <strong>mặc định tắt</strong>. Khi bạn bật nó trong Cài đặt và cho phép “Truy cập thông báo”
-    trong cài đặt Android, ứng dụng xem các thông báo mới trên máy để tìm thông báo “biến động số dư” của app
-    ngân hàng:</p>
-    <ul>
-      <li>Chỉ lấy <strong>số tiền</strong> và <strong>nội dung chuyển khoản</strong> để khớp với đơn chuyển khoản đang chờ,
-        rồi đánh dấu đơn đó “Đã nhận”.</li>
-      <li>Mọi việc xử lý <strong>ngay trên máy</strong>. Nội dung thông báo <strong>không được lưu</strong> và
-        <strong>không được gửi đi</strong> đâu cả. Thông báo của ứng dụng khác (tin nhắn, mạng xã hội…) bị bỏ qua.</li>
-      <li>Tắt bất cứ lúc nào trong Cài đặt của ứng dụng, hoặc gỡ quyền “Truy cập thông báo” trong cài đặt Android.</li>
-    </ul>
-    <h3>Thông báo “Tin mới” (Firebase Cloud Messaging)</h3>
-    <p>Để nhận thông báo về bản cập nhật và tính năng mới, ứng dụng dùng Firebase Cloud Messaging
-    (FCM) của Google:</p>
-    <ul>
-      <li>Khi ứng dụng mở, FCM tạo một <strong>mã nhận thông báo</strong> ngẫu nhiên cho bản cài đặt này và
-        đăng ký nó vào kênh tin chung. Mã này không gắn với tên, số điện thoại, email hay tài khoản
-        nào, và chúng tôi không lưu nó.</li>
-      <li>Google xử lý mã này để chuyển thông báo tới máy bạn, theo
-        <a href="https://policies.google.com/privacy">chính sách quyền riêng tư của Google</a> và
-        <a href="https://firebase.google.com/support/privacy">điều khoản Firebase</a>.</li>
-      <li><strong>Không</strong> có dữ liệu bán hàng, thực đơn, giá vốn hay khoản chi nào được gửi qua kênh
-        này. Thông báo chỉ đi một chiều: từ chúng tôi tới máy bạn.</li>
-      <li>Tắt “Tin mới” trong Cài đặt sẽ huỷ đăng ký khỏi kênh tin. Bạn cũng có thể tắt kênh
-        “Tin mới từ Sổ Doanh Thu” trong cài đặt thông báo của Android.</li>
-    </ul>
     <p>Chỉ có ba tính năng đưa dữ liệu ra khỏi ứng dụng, và cả ba đều chỉ chạy khi bạn chủ động bấm:</p>
     <ul>
       <li><strong>“Xuất CSV”</strong> (Cài đặt, Báo cáo) lưu một tệp CSV doanh thu vào thư mục Tải xuống
